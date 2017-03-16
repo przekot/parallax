@@ -1,0 +1,62 @@
+body,html,p {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero {
+    height:700px;
+    position:relative;
+    overflow:hidden;
+
+}
+
+#hero h1 {
+    text-align:center;
+    font-weight:700;
+    text-transform: uppercase;
+    margin-top:300px;
+    font-size:60px;
+    color:#333;
+    text-shadow:10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.layer-main {
+    background: url("../img/layer-1.png");
+
+}
+
+.layer-second {
+    background: url("../img/layer-2.png");
+}
+
+.layer-third {
+    background: url("../img/layer-3.png");
+}
+
+.layer {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+    height:700px;
+    position:fixed;
+    z-index: -1;
+
+}
+
+.container {
+    height:700px;
+    background:#fff;
+    color:#333;
+    font-size:20px;
+    text-align:center;
+}
+
+.container p {
+    box-sizing:border-box;
+    padding-top:100px;
+}
